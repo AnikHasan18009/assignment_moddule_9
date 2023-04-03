@@ -1,0 +1,15 @@
+main{
+  flex:1;
+}
+.contact form table{
+ 
+  color: darkblue;
+  font-weight: bolder;
+   height: 400px;
+  margin:auto;
+}
+.contact form table td{text-align: center;}
+.box{
+  width:200px;
+}
+

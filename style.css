@@ -1,0 +1,188 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding: 0px;
+  text-decoration: none;
+  outline: none;
+list-style-type: none;
+}
+
+body{
+  max-width: 100%;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  background-color:white;
+  justify-content:space-between;
+}
+
+header{
+  z-index: 10;
+ background-color: black;
+ display:flex;
+ justify-content:space-between;
+ align-items: center;
+ padding:10px 5px;
+ position: sticky;
+ min-height: 5vh;
+ top:0px;
+}
+nav{
+  flex:1;
+
+}
+.logo{
+max-height: 5rem;
+max-width: 9rem;
+}
+nav ul li{
+  
+  padding:.5rem;
+  flex:auto;
+  text-align: center;
+}
+ nav ul li:hover{
+   
+   font-size: 1.2rem;
+   transition-duration: .5s;
+}
+nav ul li a{color:white}
+.navi{
+  display: flex;
+  justify-content: space-around;
+}
+
+main h2{
+  padding:10px;
+}
+.featured{
+margin:0px;
+padding:0px;
+display:flex;
+flex-wrap: wrap;
+align-items: space-around;
+align-content: space-around;
+}
+
+.featured article{
+  text-align: justify;
+  flex: 1 48%;
+  padding: 15px;
+  box-shadow: .1rem .2rem .3rem #cacaca;
+}
+.featured img{
+  display: block;
+  margin:auto;
+  height: 15rem;
+  width: 20rem;
+}
+
+.featured h1{
+  font-size: 25px;
+  
+}
+.about{
+background-color: rgb(63, 62, 62);
+min-height: 5vh;
+padding:2rem;
+color:white;
+text-align: center;
+font-size: .7rem;
+
+}
+.about table{width:100%}
+.about hr{margin: 10px;
+}
+
+.blog-main{
+display:flex;
+padding: 15px;
+flex-wrap: wrap-reverse;
+}
+.blogs{
+  flex:1 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding:15px;
+}
+.sidebar{
+  order:1;
+ 
+
+ 
+}
+.blog{
+  flex: 45%;
+  display:flex;
+  box-shadow: .1rem .2rem .3rem #cacaca;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  flex-wrap: wrap;
+
+}
+.blog div img{
+  max-height: 15rem;
+  max-width: 18rem;
+  
+
+}
+.blog div h2,.blog div p{
+  color:black;
+  word-wrap: break-word;
+  text-align: justify;
+ padding:0px 10px;
+}
+.categories li{
+  font-weight:bolder;
+  padding:5px;
+}
+.categories li:hover{
+  background-color: black;
+  color:white;
+}
+.blog div button{
+  background-color: azure;
+ border:none;
+ padding: 10px;
+}
+.single-blog-main{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.single-blog-main div img{
+  display: block;
+  margin: auto;
+  width: 25rem;
+  height: 25rem;
+}
+.single-blog-main div p{
+ 
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.single-blog-main div{
+  padding: 15px;
+}
+
+.share-links{
+  margin:auto;
+  font-size: 1.5rem;
+  display: flex;
+  
+  color: rgb(102, 100, 100);
+}
+.share-links ul li{
+  float: left;
+  padding:5px;
+  
+}
+.share-links a {
+  color: rgb(102, 100, 100);
+}
+
