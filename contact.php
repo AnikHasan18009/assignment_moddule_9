@@ -34,7 +34,7 @@ if($_SERVER['REQUEST_METHOD']==='POST')
     <nav>
       <ul class="navi">
         <li><a href="homepage.php" target="_self">Home</a></li>
-        <li><a href="blogpage.php" target="_self">Blog Page</a></li>
+        <li><a href="blogpage.php" target="_self">Blogs</a></li>
         <li><a href="contact.php" target="_self">Contact</a></li>
         <li><a href="#home-footer">About</a></li>
       </ul>

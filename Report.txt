@@ -1,0 +1,59 @@
+This blog project has 4 types of page.
+.Home page
+.Blogs page
+.Contact Page
+.Single blog page
+
+The implementation of the project has 5 php files,2 style sheets,image folder. Every page in the project has a php file with the same name as the 
+page type.The 'blogs.php' file has an array that contains all the information of every blog shown in the project. Data from this array is fetched
+to display detailed information of a blog in the single blog page.
+
+
+Home Page
+To make the home page responsive, flex display property is used on the body of the page. This page has 3 parts header,main,footer. To increase the
+responsiveness of the page flex property is also used in the main section.
+The home page has a header section which contains a logo on the left and navigation bar on the other side. This navigation bar with the logo always 
+stays on the top of the page even when we scroll.The navigation section has links to goto the blogs page,contact page and the about section of 
+the page. The main section of the home page shows the trending blogs. Here the project shows first 4 blogs in the 'blogs.php' file. Each blog has 
+a title,short description and an image.
+The footer section is linked with the about section of the navigation bar.
+
+
+Blogs Page
+When clicked on the 'Blogs' section of the navigation bar, our project will show the page which all the blogs. This page shows all the blogs which 
+are in the 'blogs.php' file. This page also has similar header and footer section as the home page. The main section has two parts.First one is
+the blogs section and the second one is the sidebar. Similar to the home page, flexbox design is used in this page also to make it responsive.
+Here we also use flexbox design in the main section as well as in the blogs section. This nesting of flexboxes increase the responsiveness of
+the page.
+The blogs section shows a card for each of the blogs. Each blog also has a 'Read More' button, which takes us to a new page which shows us a 
+blog in more detail.
+The side bar has a search bar and a categories list. This part is not functional at the moment.
+
+
+Single Blog Page
+When we press on the 'Read More' button on a card of a blog in the blogs page, a new page opens. This page shows the title, image, author name,
+description of the blog.
+This page also has 3 parts like the other pages. The header and the footer section is similar to the other pages but the main section only has content
+of a single blog.
+The bottom of the main section has social media links to share the blog.   
+
+
+Contact page
+When pressed on the 'Contact' section of the navigation bar ,the contact page containing a form opens. This page also has 3 secdtions. The header and the 
+footer is similar to other pages in the project. The main section of the page has a form. This page is also designed with flex box.
+When data in the form is given correctly, a confirmation message is shown in green color. If we input any invalid data and submit it, an error is shown in
+red color in the page.
+
+
+Challanges Faced
+.Improving the responsiveness
+Here I implemented nested flex boxes to improve the performance.
+.Removing Empty spaces on the page
+Here I used flex grow property to manage the empty spaces in the page
+.Reducing amount of code
+Here instead using same piece of code multiple times to generate the cards for blogs, I used a php array to store all the information of every blog
+and used a php for loop to iterate that array generate same html code for every blog card.  
+
+
+
+

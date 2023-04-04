@@ -15,7 +15,7 @@
     <nav>
       <ul class="navi">
         <li><a href="homepage.php" target="_self">Home</a></li>
-        <li><a href="blogpage.php">Blog Page</a></li>
+        <li><a href="blogpage.php">Blogs</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="#home-footer">About</a></li>
       </ul>

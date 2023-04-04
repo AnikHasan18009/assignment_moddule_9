@@ -88,7 +88,7 @@ padding:2rem;
 color:white;
 text-align: center;
 font-size: .7rem;
-
+justify-self: flex-end;
 }
 .about table{width:100%}
 .about hr{margin: 10px;
@@ -186,3 +186,6 @@ flex-wrap: wrap-reverse;
   color: rgb(102, 100, 100);
 }
 
+.contact{
+  flex:1;
+}
